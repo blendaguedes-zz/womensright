@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="row imagetiles">
+
+        <div class="col-lg-6 col-md-6 col-sm-6" >
+    <div class="row imagetiles">
+            <img style="height:350px; width: 100%;background-size: cover;background-attachment: local;background-repeat: no-repeat;"
+                 src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+        </div>
+    </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 imagetiles">
+            <div class="row imagetiles">
+                <img style="height:175px; width: 100%;background-size: cover;background-attachment: local;background-repeat: no-repeat;"
+                     src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+            </div>
+            <div class="row imagetiles">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img style="height:175px; width: 100%;background-size: cover;background-attachment: local;background-repeat: no-repeat;"
+                         src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img style="height:175px; width: 100%;background-size: cover;background-attachment: local;background-repeat: no-repeat;"
+                         src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        div.imagetiles div.col-lg-6.col-md-6.col-sm-6 {
+            padding: 0px;
+        }
+
+        div.col-lg-12.col-md-12.col-sm-12 {
+            padding: 0px;
+        }
+    </style>
+
+{% endblock %}
